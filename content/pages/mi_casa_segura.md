@@ -1,32 +1,34 @@
 Title: Mi casa segura
 Slug: mi-casa-segura
 
+![mi_casa_segura](https://user-images.githubusercontent.com/2810187/216903730-d33f525c-bec0-4e9a-9dad-dc2df019e7ea.jpg)
+
 El evento consiste en recolectar una serie de ítems, que no van a ser sencillos, pero que si lo logran, podrán reclamar las murallas anti-zombies, para todo el contorno del refugio. La lista es extensa, pero si lo hacen, no tendrán que volver a preocuparse nunca más por los zombies, salvo que, pierdan el refugio porque no se conectan o bien, les rompan el portón de acceso, si es que quieren tener vehículos en su interior.
 
 Deberán juntar las siguientes cantidades / ítems.
 (Almacenarlos en 1 o varias cajas, dependiendo del peso y la cantidad)
 
-- 150 relojes digitales de cualquier color.
-- 20 mascaras de soldar.
-- 30 relojes despertadores.
-- 15 controles remotos (TV) / Mando TV.
+- 150 [relojes digitales](https://pzwiki.net/wiki/Digital_Watch){:target="_blank"} de cualquier color
+- 20 [mascaras de soldar](https://pzwiki.net/wiki/Welder_Mask){:target="_blank"}
+- 30 [relojes despertadores](https://pzwiki.net/wiki/Alarm_Clock){:target="_blank"}
+- 15 [controles remotos (TV) / Mando TV](https://pzwiki.net/wiki/TV_Remote){:target="_blank"}
 - 1 caja de herramientas con las 5 herramientas para desarmar un auto
-    - Destornillador
-    - Gato
-    - Llave cruz
-    - Llave inglesa
-    - Inflador
-- 20 linternas de cualquier tipo.
-- 20 candados.
-- 15 abrelatas
-- 10 cuchillos de caza.
-- 10 cuchillos de piedra.
-- 10 hachas de piedra.
-- 10 martillos de piedra.
-- 5 palas.
-- 5 tijeras.
-- 10 hachas de bomberos (rojas) aunque estén dañadas.
-- 10 llaves de tubo.
+    - [Destornillador](https://pzwiki.net/wiki/Screwdriver){:target="_blank"}
+    - [Gato](https://pzwiki.net/wiki/Jack){:target="_blank"}
+    - [Llave cruz](https://pzwiki.net/wiki/Lug_Wrench){:target="_blank"}
+    - [Llave inglesa](https://pzwiki.net/wiki/Wrench){:target="_blank"}
+    - [Inflador](https://pzwiki.net/wiki/Tire_Pump){:target="_blank"}
+- 20 [linternas](https://pzwiki.net/wiki/Flashlight){:target="_blank"} de cualquier tipo.
+- 20 [candados](https://pzwiki.net/wiki/Padlock){:target="_blank"}
+- 15 [abrelatas](https://pzwiki.net/wiki/Can_Opener){:target="_blank"}
+- 10 [cuchillos de caza](https://pzwiki.net/wiki/Hunting_Knife){:target="_blank"}
+- 10 [cuchillos de piedra](https://pzwiki.net/wiki/Stone_Knife){:target="_blank"}
+- 10 [hachas de piedra](https://pzwiki.net/wiki/Stone_Axe){:target="_blank"}
+- 10 [martillos de piedra](https://pzwiki.net/wiki/Stone_Hammer){:target="_blank"}
+- 5 [palas](https://pzwiki.net/wiki/Shovel){:target="_blank"}
+- 5 [tijeras](https://pzwiki.net/wiki/Scissors){:target="_blank"}
+- 10 [hachas de bomberos (rojas)](https://pzwiki.net/wiki/Axe){:target="_blank"} (Dañadas, usadas o nuevas)
+- 10 [llaves de tubo](https://pzwiki.net/wiki/Pipe_Wrench){:target="_blank"}
 - 1 colección completa de libros. (Todos los libros)
     - Carpintería (Volumen 1 al 5)
     - Cocina (Volumen 1 al 5)
