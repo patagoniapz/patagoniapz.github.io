@@ -4,7 +4,7 @@ import datetime
 
 AUTHOR = 'Patagonia'
 SITENAME = 'Patagonia PZ'
-SITEURL = ''
+SITEURL = 'https://patagoniapz.github.io/'
 
 PATH = 'content'
 
