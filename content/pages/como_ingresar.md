@@ -3,6 +3,8 @@ Slug: como-ingresar
 
 ### Datos para acceder al servidor
 
+![connect](https://user-images.githubusercontent.com/2810187/216898271-1e11cdac-03c5-4bdc-a6a6-92eb2a3ce3e0.png)
+
 - **IP:** 45.235.98.207
 - **Puerto:** 18022
 - **Tipo:** PVE
