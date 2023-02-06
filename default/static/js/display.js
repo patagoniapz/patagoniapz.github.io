@@ -20,6 +20,15 @@ function time()
     tmin = reset.getMinutes() - today.getMinutes();
     tsec = reset.getSeconds() - today.getSeconds();
   }
+  else if (today.getHours() >= 00)
+  {
+    reset.setHours(11);
+    reset.setMinutes(59);
+    reset.setSeconds(59);
+    thour = reset.getHours() - today.getHours();
+    tmin = reset.getMinutes() - today.getMinutes();
+    tsec = reset.getSeconds() - today.getSeconds();
+  }
   else
   {
     reset.setHours(11);
