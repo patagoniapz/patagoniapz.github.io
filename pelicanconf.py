@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*- #
+
+import datetime
+
 AUTHOR = 'Patagonia'
 SITENAME = 'Patagonia PZ'
 SITEURL = ''
@@ -29,3 +33,7 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = 'default'
+
+DATE = datetime.datetime.now().year

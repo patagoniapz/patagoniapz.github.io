@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col my-3">
+      <h1>{{ page.title }}</h1>
+      <div class="my-3">
+        {{ page.content }}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
+{% block script %}
+<script>
+  $(document).ready(function () {
+    $("img").addClass("img-fluid mx-auto d-block");
+    $('a').attr('target', '_blank');
+  });
+</script>
+{% endblock %}
