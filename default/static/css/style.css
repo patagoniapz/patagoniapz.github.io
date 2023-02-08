@@ -50,12 +50,6 @@ footer {
   color: #ccc !important;
 }
 
-.page-link {
-  color: #FF5733 !important;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 /* MOBILE */
 
 @media (max-width: 575.98px) {}
