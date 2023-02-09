@@ -13,23 +13,21 @@ Si sos una persona que tiene varios vehículos, ya sea porque participaste del e
 
 Para participar del evento, enviarle un mensaje personal al administrador con la siguiente información:
 
-- Nombre de usuario (Dueño del refugio donde están los autos):
-- Vehículo que quieren (Que podes sacar el nombre / enlace de la wiki que está más arriba):
+- Nombre de usuario:
+  - (Dueño del refugio donde están los autos)
+- Vehículo que quieren:
+  - (Que podes sacar el nombre / enlace de la wiki que está más arriba)
 
 ### Preguntas sobre el evento
 
 - ¿Se puede pedir un remolque?
-
-**Rta:** *Si. Se pueden pedir todos los tipos de vehículos que figuran en la wiki del juego.*
+  - **Rta:** Si. Se pueden pedir todos los tipos de vehículos que figuran en la wiki del juego.
 
 - ¿En qué estado deben estar los vehículos?
-
-**Rta:** *En cualquier estado. Quemados o desmantelados o nuevos o chocados o lo que sea. Lo que importa es que sean 10 y que estén en el refugio, de la persona que quiere reclamar el evento. Por eso, al escribir el mensaje, deben enviar el usuario dueño del refugio, junto con el tipo de vehículo que quieren.*
+  - **Rta:** En cualquier estado. Quemados o desmantelados o nuevos o chocados o lo que sea. Lo que importa es que sean 10 y que estén en el refugio, de la persona que quiere reclamar el evento. Por eso, al escribir el mensaje, deben enviar el usuario dueño del refugio, junto con el tipo de vehículo que quieren.
 
 - ¿Cuánto demoran en darme el premio?
-
-**Rta:** *Generalmente, en el mismo día, a menos que ocurra algún imprevisto.*
+  - **Rta:** Generalmente, en el mismo día, a menos que ocurra algún imprevisto.
 
 - ¿Cuántas veces puedo participar del evento?
-
-**Rta:** *Depende de la cantidad de autos en condiciones que tengas, y de las veces que hayas participado. Como lo mencione anteriormente, la idea, es despejar los caminos, pero también, que las personas que no tienen un vehículo en condiciones, o que necesitan un remolque, puedan acceder a él, mediante este evento.*
+  - **Rta:** Depende de la cantidad de autos en condiciones que tengas, y de las veces que hayas participado. Como lo mencione anteriormente, la idea, es despejar los caminos, pero también, que las personas que no tienen un vehículo en condiciones, o que necesitan un remolque, puedan acceder a él, mediante este evento.
