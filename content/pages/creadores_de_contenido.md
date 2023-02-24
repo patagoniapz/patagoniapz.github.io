@@ -5,8 +5,8 @@ Slug: creadores-de-contenido
 
 A partir de ahora, podrás obtener premios dentro del servidor, apoyando los videos de los creadores de contenido. Los valores de los premios son los siguiente de momento, y se pueden ir modificando o añadiendo nuevas cosas, en la medida en la que sea necesario hacerlo. Los puntos, los podrás obtener, siguiendo a los creadores de contenido en sus directos.
 
-- [https://www.twitch.tv/monobeta_](https://www.twitch.tv/monobeta_)
-- [https://www.twitch.tv/walterpagani](https://www.twitch.tv/walterpagani)
+- [https://www.twitch.tv/monobeta_](https://www.twitch.tv/monobeta_){:target="_blank"}
+- [https://www.twitch.tv/walterpagani](https://www.twitch.tv/walterpagani){:target="_blank"}
 
 De momento, los premios que se pueden cambiar son los siguientes:
 
