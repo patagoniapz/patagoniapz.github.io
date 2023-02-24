@@ -39,6 +39,6 @@ function time()
     tsec = reset.getSeconds() - today.getSeconds();
   }
 
-  document.getElementById('reset').innerHTML = '<strong>Proximo reinicio del servidor:</strong> ' + thour + ' horas ' + tmin + ' minutos ' + tsec + ' segundos';
+  document.getElementById('reset').innerHTML = '<strong>Próximo reinicio del servidor:</strong> ' + thour + ' horas ' + tmin + ' minutos ' + tsec + ' segundos';
   window.setTimeout("time()", 1000);
 }
