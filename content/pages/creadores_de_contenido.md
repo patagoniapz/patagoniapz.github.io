@@ -22,4 +22,6 @@ De momento, los premios que se pueden cambiar son los siguientes:
 
 Es una forma de agradecerles, por apoyar los directos de las personas que ayudan de una forma u otra a que esta comunidad todos los días crezca, y premiarlos de alguna forma, por ver su contenido. Si sos creador de contenido, podes participar también, pero la idea es que no nos pisemos los horarios entre nosotros, porque el objetivo de esto, es que puedas premiar a tu comunidad, y también de alguna forma, crecer dentro de la plataforma si necesitas un empujón. Por lo que revisa los horarios de los otros creadores de contenido, e intenta, no pisarte con sus horarios, de esa forma, podemos crecer todos juntos y premiar de alguna forma a la comunidad que nos ayuda a hacerlo.
 
+Se pueden sugerir más premios, aunque hay que discutir el tema de los puntos. Sin mencionar, que muchas cosas, se pueden craftear con recetas en las que estamos trabajando. Ya hemos añadiendo 2 crafteos al servidor, que son las piezas de motor y los generadores. Nuestra intención es tratar de seguir añadiendo más contenido, intentando no perder la esencia del vanilla, pero hay cosas que son finitas, y tenemos que añadirlas de alguna forma, tarde o temprano, para evitar tener que reiniciar el mapa por completo.
+
 **¡Nos vemos en el directo!**
