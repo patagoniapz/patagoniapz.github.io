@@ -11,18 +11,18 @@ function time()
   reset = new Date();
   today = changeTimezone(today, "America/Argentina/Buenos_Aires");
 
-  if (today.getHours() >= 12)
+  if (today.getHours() >= 18)
   {
-    reset.setHours(23);
+    reset.setHours(05);
     reset.setMinutes(59);
     reset.setSeconds(59);
     thour = reset.getHours() - today.getHours();
     tmin = reset.getMinutes() - today.getMinutes();
     tsec = reset.getSeconds() - today.getSeconds();
   }
-  else if (today.getHours() >= 00)
+  else if (today.getHours() >= 06)
   {
-    reset.setHours(11);
+    reset.setHours(17);
     reset.setMinutes(59);
     reset.setSeconds(59);
     thour = reset.getHours() - today.getHours();
@@ -31,7 +31,7 @@ function time()
   }
   else
   {
-    reset.setHours(11);
+    reset.setHours(17);
     reset.setMinutes(59);
     reset.setSeconds(59);
     thour = reset.getHours() - today.getHours() + 24;
