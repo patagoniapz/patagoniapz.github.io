@@ -1,8 +1,6 @@
 Title: Creadores de contenido
 Slug: creadores-de-contenido
 
-# Creadores de contenido
-
 A partir de ahora, podrás obtener premios dentro del servidor, apoyando los videos de los creadores de contenido. Los valores de los premios son los siguiente de momento, y se pueden ir modificando o añadiendo nuevas cosas, en la medida en la que sea necesario hacerlo. Los puntos, los podrás obtener, siguiendo a los creadores de contenido en sus directos. **Para poder entregar el premio, no basta con eso canjearlo en el directo, también hay que enviarle un mensaje personal a Stevej, con una captura de pantalla y los datos necesarios para que pueda entregar lo que pidan.**
 
 - [https://www.twitch.tv/monobeta_](https://www.twitch.tv/monobeta_){:target="_blank"}
@@ -19,9 +17,7 @@ Básicamente, lo que se hace en este caso, es quitarle el punteo a 2 autos, y en
 Durante muchos tiempo, las ampliaciones se hacían de manera gratuita, pero la gente no las valoraba, porque como eran gratis, daba lo mismo, cuidarlo que no cuidarlo. Un terreno por defecto, tiene una dimensión de 2 cuadrados, alrededor de la casa. Lo que hace la ampliación, es aumentar el radio de la zona segura, pero eso no quiere decir, que no tengas que hacer muros y todo lo demás. Solamente limita el acceso a las otras personas, pero no así, de los zombies por ejemplo.
 
 - **4000 puntos** un electrodoméstico a elección
-
     - Heladeras, Cocinas, Lavarropas, Secarropas, Microondas, e.t.c
-
 - **4000 puntos** Porton garage
 
 Para saber, cuales son las categorías de los autos, poder revisar la [wiki de los vehículos](https://pzwiki.net/wiki/Vehicles){:target="_blank"}.
@@ -29,7 +25,6 @@ Para saber, cuales son las categorías de los autos, poder revisar la [wiki de l
 Siendo las siguientes:
 
 - **6000 puntos** un auto estandar (Vehicle Type: Standard) al 100%
-
     - [Chevalier Cerise Wagon](https://pzwiki.net/wiki/Chevalier_Cerise_Wagon){:target="_blank"}
     - [Chevalier Dart](https://pzwiki.net/wiki/Chevalier_Dart){:target="_blank"}
     - [Chevalier Nyala](https://pzwiki.net/wiki/Chevalier_Nyala){:target="_blank"}
@@ -37,17 +32,13 @@ Siendo las siguientes:
     - [Masterson Horizon](https://pzwiki.net/wiki/Masterson_Horizon){:target="_blank"}
     - [Trailers](https://pzwiki.net/wiki/Trailers){:target="_blank"}
     - [Advert Trailer](https://pzwiki.net/wiki/Advert_Trailer){:target="_blank"}
-
 - **10000 puntos** un auto industrial (Vehicle Type: Heavy-Duty) al 100%
-
     - [Chevalier D6](https://pzwiki.net/wiki/Chevalier_D6){:target="_blank"}
     - [Chevalier Step Van](https://pzwiki.net/wiki/Chevalier_Step_Van){:target="_blank"}
     - [Dash Bulldriver](https://pzwiki.net/wiki/Dash_Bulldriver){:target="_blank"}
     - [Franklin All-Terrain](https://pzwiki.net/wiki/Franklin_All-Terrain){:target="_blank"}
     - [Franklin Valuline](https://pzwiki.net/wiki/Franklin_Valuline){:target="_blank"}
-
 - **20000 puntos** un auto deportivo (Vehicle Type: Sport) al 100%
-
     - [Chevalier Cossette](https://pzwiki.net/wiki/Chevalier_Cossette){:target="_blank"}
     - [Chevalier Primani](https://pzwiki.net/wiki/Chevalier_Primani){:target="_blank"}
     - [Dash Elite](https://pzwiki.net/wiki/Dash_Elite){:target="_blank"}
