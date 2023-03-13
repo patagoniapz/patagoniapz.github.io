@@ -57,7 +57,7 @@ Para crear facción, tenes que acceder al menú de la izquierda, buscar el icono
 
 El respawn de loot, se lleva a cabo en contenedores que alguna vez hayan sido limpiados por alguien. Si un contenedor, nunca fue vaciado, este tendrá siempre el mismo loot. Les recomiendo, que tiren al suelo todo lo que no les sirve, para que el servidor lo borre, y de esa forma, consigan nuevo loot cuando se respawnee el mismo. Tienen que tener también en cuenta, que algunos edificios, por problemas del juego, no pueden respawnee el loot de manera natural, por lo que los estamos identificando, para poder hacer que aparezca el loot nosotros.
 
-**El respawn actualmente, es cada 5 horas. Lo cual debería de ser 10 horas reales.**
+**El respawn actualmente, es cada 120 horas ingame | 5 días ingame. Lo cual debería de ser 20 horas reales.**
 
 - **¿Cómo se cuánto tiempo llevo sobrevivido?**
 
@@ -75,7 +75,17 @@ Y debajo de la cantidad de zombies asesinados, podrás ver los días que lleva s
 
 De momento, para reclamar el refugio, tenes que sobrevivir 48 horas dentro del juego.
 
-Eso equivale a 4 horas de la vida real. 2 horas de juego, son 1 hora real.
+Eso equivale a 4 horas de la vida real. 1 día de juego, son 2 horas reales.
+
+```
+-- Por defecto=1 hora
+-- 1 = 15 minutos
+-- 2 = 30 minutos
+-- 3 = 1 hora
+-- 4 = 2 horas
+...
+DayLength = 4,
+```
 
 - **¿Cómo hago para reaparecer en el refugio?**
 
