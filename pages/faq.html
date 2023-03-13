@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patagonia PZ</title>
+  <meta content="Patagonia PZ" property="og:title">
+  <meta content="Patagonia PZ, es una comunidad de Project Zomboid en Argentina. Ven a nuestro discord, conoce más sobre nuestra comunidad, sus eventos, sus ideas. Te estamos esperando…" property="og:description">
+  <meta content="https://patagoniapz.github.io" property="og:url">
+  <meta content="https://patagoniapz.github.io/theme/img/logo.png" property="og:image">
+  <meta content="#A72C2C" data-react-helmet="true" name="theme-color">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://patagoniapz.github.io/theme/css/style.css">
+</head>
+
+<body onload="time()">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="https://patagoniapz.github.io/">Patagonia PZ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://patagoniapz.github.io/pages/como-ingresar.html">¿Como ingresar?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://patagoniapz.github.io/pages/reglas.html">Reglas</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Eventos</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://patagoniapz.github.io/pages/plan-canje.html">Plan canje</a></li>
+                <li><a class="dropdown-item" href="https://patagoniapz.github.io/pages/mi-casa-segura.html">Mi casa segura</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://patagoniapz.github.io/pages/creadores-de-contenido.html">Creadores de contenido</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://discord.gg/Txs7X9XfMe" target="_blank">Discord</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://patagoniapz.github.io/pages/soporte.html">Soporte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://patagoniapz.github.io/pages/faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://patagoniapz.github.io/pages/donaciones.html">Donaciones</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="reset">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="reset"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+<div class="container">
+  <div class="row">
+    <div class="col my-3">
+      <h1>Preguntas frecuentes</h1>
+      <div class="my-3">
+        <h1>General</h1>
+<ul>
+<li><strong>¿El servidor es pvp o piensa ser pvp en algún momento?</strong></li>
+</ul>
+<p>No, el servidor nació con la idea de ser una comunidad cooperativa, la cual, luche contra las hordas de los infectados, consiguiendo todo tipo de materiales, para proteger sus refugios. Dado que todos los jugadores pueden verse en el mapa y cuentan con la posibilidad de tener una zona ampliada más grande, que la que el juego permite, no estaríamos en condiciones de cambiar el servidor a pvp. Si se formara una comunidad más grande, y se pudiera mantener un segundo servidor que fuera independiente del actual, y se consiga gente que lo pueda administrar, a pesar de que va a ser totalmente anárquico, quizás, si se cumplen esas condiciones, se podría llegar a formar un segundo reino, que no sería el actual.</p>
+<ul>
+<li><strong>¿Se pueden añadir más slot?</strong></li>
+</ul>
+<p>Según lo que investigamos, cada slot en el servidor, requiere de 512 MB de RAM. La máquina actual, cuenta con 8 cores y 20 GB de RAM. Siendo que tenemos 32 slot, eso sería 16 GB de RAM solo para las conexiones, quedándole al servidor unos 4 GB disponibles. Por una recomendación de los desarrolladores del juego, si bien, el límite de jugador puede llegar a ser 100, ellos no recomiendan más de 32 slot.</p>
+<div class="highlight"><pre><span></span><code># Número máximo de jugadores que pueden estar en el servidor a la vez. Esto excluye a los administradores.
+# ADVERTENCIA: Un número de jugadores en el servidor superior a 32 puede provocar una mala transmisión del mapa y desincronización. Por favor, avance con precaución.
+Mínimo=1 Máximo=100 Por defecto=32
+MaxPlayers=32
+</code></pre></div>
+
+<ul>
+<li><strong>¿Se pueden añadir mods?</strong></li>
+</ul>
+<p>Siempre se pueden añadir mods, pero no es la idea del servidor. El servidor nació siendo vanilla, y se añadieron algunas pequeñas cosas, para poder solventar, lo que es finito, por ejemplo, autos, piezas de motor, generadores, y otros tipos de creaciones, que se van a ir añadiendo a el mod propio, creado para el servidor. Además, depender de otros mod, requiere que los dueños de los mismos, los mantengan actualizaciones, y puede ocurrir que en algún momento, los dueños cambien algún parámetro dentro del mod, y el mismo ya no se adapte a lo que el servidor quiere ofrecer.</p>
+<ul>
+<li><strong>¿Está permitido el robo?</strong></li>
+</ul>
+<p>No, somos una comunidad pve. Eso significa, que no estamos viendo, o a la expectativa que se libere el refugio de una persona, para ir a buscar todos los materiales que el mismo fue guardando durante todo ese tiempo. Eso no significa, que si el refugio se libera por inactividad (lo cual ocurre luego de 7 días que el dueño del refugio no entra al servidor) se puedan tomar esos items, y que puedan ser aprovechados por otra persona.</p>
+<ul>
+<li><strong>Habilitar el chat el de voz</strong></li>
+</ul>
+<p>Para habilitar el chat de voz, tenes que hacer una serie de pasos, que mejor que explicarlo en texto, es que mires el video del canal de YouTube, donde se explican esos temas. Te dejo el enlace al <a href="https://youtube.com/watch?v=nkJvy5DXoc0&amp;si=EnSIkaIECMiOmarE&amp;t=124">video</a>, en el tiempo en el que empieza a hablar sobre como habilitar el micrófono. Te dejo algunas imágenes que te pueden ayudar, sin embargo, es mejor ver el video. Dado que se explica todo pasó por paso.</p>
+<p><img alt="20230224184734_1" src="https://user-images.githubusercontent.com/2810187/221299805-2692771f-c60d-4c0b-bcc6-adb1b11aab92.jpg"></p>
+<p><img alt="20230224184744_1" src="https://user-images.githubusercontent.com/2810187/221299832-8926dc5e-30b4-4469-af94-7022e3d36bf7.jpg"></p>
+<p><img alt="20230224184752_1" src="https://user-images.githubusercontent.com/2810187/221299863-d6ab07ae-a68b-461b-a6e3-9641873ff099.jpg"></p>
+<ul>
+<li><strong>Tipos de chat dentro del juego</strong></li>
+</ul>
+<p>Dentro del juego, existen varios tipos de chat disponibles.</p>
+<ul>
+<li><code>/say mensaje</code> habla en el lugar.</li>
+<li><code>/yell mensaje</code> habla en el lugar, pero es como un grito.</li>
+<li><code>/all mensaje</code> se lo envía a todo el servidor.</li>
+<li>
+<p><code>/whisper usuario mensaje</code> manda un mensaje personal a alguien.</p>
+</li>
+<li>
+<p><strong>¿Cómo crear facciones?</strong></p>
+</li>
+</ul>
+<p>Para crear facción, tenes que acceder al menú de la izquierda, buscar el icono que tiene la palabra CLIENT y luego seleccionar la opción de facciones.</p>
+<p><img alt="20230224185455_1" src="https://user-images.githubusercontent.com/2810187/221300663-5e43e88f-eb61-419e-bcf3-fbd5677ae729.jpg"></p>
+<p><img alt="20230224185503_1" src="https://user-images.githubusercontent.com/2810187/221300751-02d25ded-faf6-4993-a8de-a8cf3271a76a.jpg"></p>
+<ul>
+<li><strong>Respawn de loot</strong></li>
+</ul>
+<p>El respawn de loot, se lleva a cabo en contenedores que alguna vez hayan sido limpiados por alguien. Si un contenedor, nunca fue vaciado, este tendrá siempre el mismo loot. Les recomiendo, que tiren al suelo todo lo que no les sirve, para que el servidor lo borre, y de esa forma, consigan nuevo loot cuando se respawnee el mismo. Tienen que tener también en cuenta, que algunos edificios, por problemas del juego, no pueden respawnee el loot de manera natural, por lo que los estamos identificando, para poder hacer que aparezca el loot nosotros.</p>
+<p><strong>El respawn actualmente, es cada 120 horas ingame | 5 días ingame. Lo cual debería de ser 20 horas reales.</strong></p>
+<ul>
+<li><strong>¿Cómo se cuánto tiempo llevo sobrevivido?</strong></li>
+</ul>
+<p>Para saber el tiempo que llevas sobrevivido, basta con tener un reloj digital equipado.</p>
+<p>Luego te diriges a la parte donde aparece la información de tu personaje.</p>
+<p>Y debajo de la cantidad de zombies asesinados, podrás ver los días que lleva sobrevivido tu personaje.</p>
+<p><img alt="20230224190100_1" src="https://user-images.githubusercontent.com/2810187/221301611-429890dd-a205-4a8c-8d31-9c028efd3aa6.jpg"></p>
+<h1>Refugio</h1>
+<ul>
+<li><strong>¿Cuánto tiempo tengo que sobrevivir para reclamar el refugio?</strong></li>
+</ul>
+<p>De momento, para reclamar el refugio, tenes que sobrevivir 48 horas dentro del juego.</p>
+<p>Eso equivale a 4 horas de la vida real. 1 día de juego, son 2 horas reales.</p>
+<div class="highlight"><pre><span></span><code>-- Por defecto=1 hora
+-- 1 = 15 minutos
+-- 2 = 30 minutos
+-- 3 = 1 hora
+-- 4 = 2 horas
+...
+DayLength = 4,
+</code></pre></div>
+
+<ul>
+<li>
+<p><strong>¿Cómo hago para reaparecer en el refugio?</strong></p>
+</li>
+<li>
+<p><strong>¿Cómo hago para expandir los límites del refugio?</strong></p>
+</li>
+<li>
+<p><strong>¿Con quién tengo que hablar para ampliar mi refugio?</strong></p>
+</li>
+</ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="footer_parrafo">Patagonia PZ - 2023 - <strong>Stable Build: 41.78.16</strong></p>
+          <p class="footer_parrafo">Desarrollado con éxito por <a href="https://getpelican.com/"
+              target="_blank">Pelican</a>, que se beneficia de las características de <a href="https://www.python.org/"
+              target="_blank">Python</a>.</p>
+          <p class="footer_parrafo">Tambien utilizamos <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+            y mucho amor</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://patagoniapz.github.io/theme/js/jquery-3.6.3.min.js"></script>
+  <script src="https://patagoniapz.github.io/theme/js/display.js"></script>
+<script>
+  $(document).ready(function () {
+    $("img").addClass("img-fluid mx-auto d-block");
+  });
+</script>
+</body>
+
+</html>
