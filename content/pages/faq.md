@@ -57,7 +57,7 @@ Para crear facción, tenes que acceder al menú de la izquierda, buscar el icono
 
 El respawn de loot, se lleva a cabo en contenedores que alguna vez hayan sido limpiados por alguien. Si un contenedor, nunca fue vaciado, este tendrá siempre el mismo loot. Les recomiendo, que tiren al suelo todo lo que no les sirve, para que el servidor lo borre, y de esa forma, consigan nuevo loot cuando se respawnee el mismo. Tienen que tener también en cuenta, que algunos edificios, por problemas del juego, no pueden respawnee el loot de manera natural, por lo que los estamos identificando, para poder hacer que aparezca el loot nosotros.
 
-**El respawn actualmente, es cada 120 horas ingame | 5 días ingame. Lo cual debería de ser 20 horas reales.**
+**El respawn actualmente, es cada 120 horas ingame | 5 días ingame. Lo cual debería de ser 10 horas reales.**
 
 - **¿Cómo se cuánto tiempo llevo sobrevivido?**
 
@@ -89,6 +89,12 @@ DayLength = 4,
 
 - **¿Cómo hago para reaparecer en el refugio?**
 
+Una vez que tengas un refugio, podrás encontrar dentro del menú izquierdo, dentro de la opción CLIENT, una opción nueva, que dice refugio y acceder a él. También podrás hacerlo, dentro del refugio, dándole click derecho al suelo y en el menú elegir la opción de VER REFUGIO. En él, podrás añadir amigos, y también te aparecerá en la parte inferior izquierda, una opción para tildar que dice: “reaparecer en el refugio”. De esa forma, al morir, podrás aparecer dentro de tu casa. Pero tendrás que dejar todos los ítems antes de morir, porque si no, en caso contrario, los vas a perder o tendrás que volver a recuperarlos persiguiendo al zombie que los tiene.
+
 - **¿Cómo hago para expandir los límites del refugio?**
 
+Los refugios por defecto, ocupan la casa, y 2 cuadrados en cada dirección de la misma (NORTE, SUR, ESTE Y OESTE). Dependiendo de la casa, los cuadrados exteriores, pueden tener forma de cuadrado, valga la redundancia, o bien, pueden tener otra forma, en caso de que la casa, este un poco extendida en alguno de los lados. Pero siempre son 2 cuadrados, desde la pared de la casa, en cada una de las direcciones anteriormente mencionadas.
+
 - **¿Con quién tengo que hablar para ampliar mi refugio?**
+
+Hasta hace poco tiempo, con solamente mandarle un mensaje al administrador, era más que suficiente para poder coordinar la extensión del refugio. Ahora, para poder conseguirlo, se necesitan farmear puntos, viendo los directos de los creadores de contenido. ¿Por qué se cambió esto? Los refugios por defecto, duran 7 días desde la última vez que se conectó el dueño del mismo, es decir, si vos tenes un refugio y no te conectaste en 7 días, cuando vuelvas a entrar, no vas a tener ni el refugio, ni quizás, nada de las cosas que había dentro de él. Entonces, como era algo sencillo de conseguir, no importaba si lo perdían o no, total, con mandar un mensaje, volvían a solicitar la extensión y listo. Ahora, para tener la extensión, necesitan conseguir puntos en los directos de los creadores de contenido. De esa forma, lo que buscamos, es que se valore más el refugio y que tengan más precaución a la hora de no conectarse, sabiendo que si no lo hacen, pierden la extensión y tendrán que volver a farmear los puntos nuevamente.
