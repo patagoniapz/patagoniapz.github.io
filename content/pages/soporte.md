@@ -1,7 +1,7 @@
 Title: Soporte
 Slug: soporte
 
-Todo el soporte, de momento, se lleva a cabo a través del [discord](https://discord.com/invite/Txs7X9XfMe){:target="_blank"} de la comunidad.
+Todo el soporte, de momento, se lleva a cabo a través del [discord](https://discord.gg/G3CXt8gkR7){:target="_blank"} de la comunidad.
 
 Se puede usar el canal general, para hacer consultas o enviarle un mensaje privado al **administrador**.
 

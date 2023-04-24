@@ -10,10 +10,11 @@ Slug: como-ingresar
 - **Tipo:** PVE
 - **mods:** Container Protection, Patagonia Tools
 - **Experiencia:** x5
-- **Respawn de loot cada 120 horas ingame | 5 días ingame | 20 horas reales** (en contenedores vacíos y que hayan sido saqueados alguna vez)
+- **Respawn de loot cada 120 horas ingame | 5 días ingame | 10 horas reales** (en contenedores vacíos y que hayan sido saqueados alguna vez)
 - **Probación de zombies:** Alta, vista de aguila y oido fino
 - **Safe House** (casas seguras) y extensión de terrenos.
-- [Discord](https://discord.gg/Txs7X9XfMe){:target="_blank"}
+- **Whitelist**
+- [Discord](https://discord.gg/G3CXt8gkR7){:target="_blank"}
 - Conectarse con enlace de [Steam](steam://connect/45.235.98.207:18022){:target="_blank"}
 - [Trackyserver](https://www.trackyserver.com/es/server/2209052){:target="_blank"}
 
