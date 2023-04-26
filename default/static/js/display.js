@@ -16,25 +16,16 @@ function time()
     reset.setHours(05);
     reset.setMinutes(59);
     reset.setSeconds(59);
-    thour = reset.getHours() - today.getHours();
+    thour = reset.getHours() - today.getHours()  + 24;
     tmin = reset.getMinutes() - today.getMinutes();
     tsec = reset.getSeconds() - today.getSeconds();
   }
-  else if (today.getHours() >= 06)
+  else (today.getHours() >= 06)
   {
     reset.setHours(17);
     reset.setMinutes(59);
     reset.setSeconds(59);
     thour = reset.getHours() - today.getHours();
-    tmin = reset.getMinutes() - today.getMinutes();
-    tsec = reset.getSeconds() - today.getSeconds();
-  }
-  else
-  {
-    reset.setHours(17);
-    reset.setMinutes(59);
-    reset.setSeconds(59);
-    thour = reset.getHours() - today.getHours() + 24;
     tmin = reset.getMinutes() - today.getMinutes();
     tsec = reset.getSeconds() - today.getSeconds();
   }
