@@ -14,7 +14,7 @@ Slug: como-ingresar
 - **Probación de zombies:** Alta, vista de aguila y oido fino
 - **Safe House** (casas seguras) y extensión de terrenos.
 - **Whitelist**
-- [Discord](https://discord.gg/G3CXt8gkR7){:target="_blank"}
+- [Discord](https://discord.gg/yGTbwUkVtV){:target="_blank"}
 - Conectarse con enlace de [Steam](steam://connect/45.235.98.207:18022){:target="_blank"}
 - [Trackyserver](https://www.trackyserver.com/es/server/2209052){:target="_blank"}
 
