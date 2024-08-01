@@ -1,0 +1,55 @@
+body {
+  font-family: 'Tahoma';
+  background-color: #ccc;
+  color: #000;
+}
+
+h1, h3 {
+    font-weight: 600;
+}
+
+section.info {
+  padding-top: 2%;
+}
+
+section.info a {
+  color: #2f2d28;
+}
+
+footer {
+  padding: 1% 0;
+}
+
+.footer_parrafo {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.reset {
+  color: #000;
+  font-size: 1em;
+  text-align: center;
+  padding: 1% 0;
+  background: #fff;
+}
+
+#dias, #horas, #minutos, #segundos {
+  display: inline-block;
+}
+
+#dias p, #horas p, #minutos p, #segundos p {
+  font-size: 40px;
+  letter-spacing: 0.25em;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.disabled {
+  color: #ccc !important;
+}
+
+/* MOBILE */
+
+@media (max-width: 575.98px) {}
