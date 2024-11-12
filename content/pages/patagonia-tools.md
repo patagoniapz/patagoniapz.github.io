@@ -22,26 +22,20 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
         <tr>
             <td>
                 <ul>
-                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/Plank.png" /> Tablones x4</li>
-                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/Screws.png" /> Tornillos x4</li>
-                    <li></li>
+                    <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/Plank.png" /> Tablones x4</li>
+                    <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/Screws.png" /> Tornillos x4</li>
                 </ul>
             </td>
-        </tr>
-        <tr>
             <td>
                 <ul>
-                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/Hammer.png" /></li>
-                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/BallPeenHammer.png" /></li>
-                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/HammerStone.png" /></li>
+                    <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/Hammer.png" /></li>
+                    <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/BallPeenHammer.png" /></li>
+                    <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/HammerStone.png" /></li>
                 </ul>
             </td>
-        </tr>
-        <tr>
             <td>Carpinteria 4</td>
-        </tr>
-        <tr>
             <td>-</td>
         </tr>
+        <tr>
     </tbody>
 </table>

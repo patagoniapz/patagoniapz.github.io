@@ -50,6 +50,10 @@ footer {
   color: #ccc !important;
 }
 
+.pz-items {
+  list-style-type: none;
+}
+
 /* MOBILE */
 
 @media (max-width: 575.98px) {}
