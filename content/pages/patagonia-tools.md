@@ -17,7 +17,7 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
     </thead>
     <tbody>
         <tr>
-            <td><img src="https://patagoniapz.github.io/theme/img/tiles/windows.png" /></br>Ventana</td>
+            <td><img src="https://patagoniapz.github.io/theme/img/tiles/windows.png" /> Ventana</td>
             <td>
                 <ul>
                     <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/Plank.png" /> Tablones x4 | <img src="https://patagoniapz.github.io/theme/img/pz-items/Screws.png" /> Tornillos x4</li>
