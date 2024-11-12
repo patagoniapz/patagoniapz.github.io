@@ -8,4 +8,7 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
 ## Ventanas
 
 - Herramientas:
-    - Martillo: ![BallPeenHammer_Model](https://patagoniapz.github.io/theme/img/pz-items/BallPeenHammer.png) o ![Hammer_Model](https://patagoniapz.github.io/theme/img/pz-items/Hammer.png)
+| ![BallPeenHammer](https://patagoniapz.github.io/theme/img/pz-items/BallPeenHammer.png) | ![Hammer](https://patagoniapz.github.io/theme/img/pz-items/Hammer.png) | ![HammerStone](https://patagoniapz.github.io/theme/img/pz-items/HammerStone.png) |
+|----------------------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| ![Plank.png](https://patagoniapz.github.io/theme/img/pz-items/Plank.png) x 4 |
+| ![Screws.png](https://patagoniapz.github.io/theme/img/pz-items/Screws.png) x 4 |
