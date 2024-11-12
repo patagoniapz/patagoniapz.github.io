@@ -8,21 +8,40 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
 <table class="table table-sm">
     <thead>
         <tr>
-            <th scope="col">Ventanas</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Materiales</th>
+            <th scope="col">Herramientas</th>
+            <th scope="col">Profesión</th>
+            <th scope="col">Experiencia</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th scope="row">Herramientas</th>
+            <th scope="row">Ventana</th>
+        </tr>
+        <tr>
             <td>
-                1x <img src="https://patagoniapz.github.io/theme/img/pz-items/Hammer.png" /> o 1x <img src="https://patagoniapz.github.io/theme/img/pz-items/BallPeenHammer.png" /> o 1x <img src="https://patagoniapz.github.io/theme/img/pz-items/HammerStone.png" />
+                <ul>
+                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/Plank.png" /> Tablones x4</li>
+                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/Screws.png" /> Tornillos x4</li>
+                    <li></li>
+                </ul>
             </td>
         </tr>
         <tr>
-            <th scope="row">Materiales</th>
             <td>
-                4x <img src="https://patagoniapz.github.io/theme/img/pz-items/Plank.png" /> - 4x <img src="https://patagoniapz.github.io/theme/img/pz-items/Screws.png" />
+                <ul>
+                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/Hammer.png" /></li>
+                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/BallPeenHammer.png" /></li>
+                    <li><img src="https://patagoniapz.github.io/theme/img/pz-items/HammerStone.png" /></li>
+                </ul>
             </td>
+        </tr>
+        <tr>
+            <td>Carpinteria 4</td>
+        </tr>
+        <tr>
+            <td>-</td>
         </tr>
     </tbody>
 </table>
