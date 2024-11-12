@@ -26,9 +26,7 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
             </td>
             <td>
                 <ul>
-                    <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/Hammer.png" /> o <img src="https://patagoniapz.github.io/theme/img/pz-items/BallPeenHammer.png" /> o <img src="https://patagoniapz.github.io/theme/img/pz-items/HammerStone.png" /> (Martillo)</li>
-                    <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/Screwdriver.png" /> (Destornillador)</li>
-                    <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/Hacksaw.png" /> (Sierra)</li>
+                    <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/gif/hammer.gif" /> | <img src="https://patagoniapz.github.io/theme/img/pz-items/Screwdriver.png" /> | <img src="https://patagoniapz.github.io/theme/img/pz-items/Hacksaw.png" /></li>
                 </ul>
             </td>
             <td>Carpinteria 4</td>
