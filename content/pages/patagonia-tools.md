@@ -18,8 +18,6 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
     <tbody>
         <tr>
             <th scope="row">Ventana</th>
-        </tr>
-        <tr>
             <td>
                 <ul>
                     <li class="pz-items"><img src="https://patagoniapz.github.io/theme/img/pz-items/Plank.png" /> Tablones x4</li>
@@ -36,6 +34,5 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
             <td>Carpinteria 4</td>
             <td>-</td>
         </tr>
-        <tr>
     </tbody>
 </table>
