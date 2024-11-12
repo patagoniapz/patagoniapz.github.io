@@ -1,5 +1,5 @@
 Title: Patagonia tools
-Slug: mod/patagonia-tools
+Slug: patagonia-tools
 
 # Patagonia tools
 
