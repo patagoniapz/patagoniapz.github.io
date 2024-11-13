@@ -10,12 +10,12 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
         <table class="table table-bordered table-sm text-center align-middle">
             <thead class="table-success">
                 <tr>
-                    <th colspan="4" class="text-center">Ventana</th>
+                    <th colspan="5" class="text-center">Ventana</th>
                 </t>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="4">
+                    <td rowspan="5">
                         <img src="/theme/img/tiles/Fixtures_windows_01_1.png" alt="Fixtures_windows_01_1.png">
                     </td>
                 </tr>
