@@ -88,7 +88,7 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
         <table class="table table-bordered table-sm text-center align-middle">
             <thead class="table-success">
                 <tr>
-                    <th colspan="10" class="text-center"><img src="/theme/img/tiles/Blue_Washing_Machine.png" alt="Blue_Washing_Machine.png" /> Televisor</th>
+                    <th colspan="10" class="text-center"><img src="/theme/img/tiles/120px-TvWideScreen_World.png" alt="120px-TvWideScreen_World.png" /> Televisor</th>
                 </t>
             </thead>
             <tbody>
