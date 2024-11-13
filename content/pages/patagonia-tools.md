@@ -55,8 +55,10 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
                 </t>
             </thead>
             <tbody>
-                <tr rowspan="9">
-                    <img src="/theme/img/tiles/Blue_Washing_Machine.png" alt="Blue_Washing_Machine.png" />
+                <tr>
+                    <td rowspan="9">
+                        <img src="/theme/img/tiles/Blue_Washing_Machine.png" alt="Blue_Washing_Machine.png" />
+                    </td>
                 </tr>
                 <tr>
                     <th scope="col">Materiales</th>
