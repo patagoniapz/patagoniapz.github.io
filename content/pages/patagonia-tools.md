@@ -98,10 +98,15 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
         <table class="table table-bordered table-sm text-center align-middle">
             <thead class="table-success">
                 <tr>
-                    <th colspan="10" class="text-center"><img src="/theme/img/tiles/120px-TvWideScreen_World.png" alt="120px-TvWideScreen_World.png" /> Televisor</th>
+                    <th colspan="11" class="text-center">Televisor</th>
                 </t>
             </thead>
             <tbody>
+                <tr>
+                    <td rowspan="11">
+                        <img src="/theme/img/tiles/120px-TvWideScreen_World.png" alt="120px-TvWideScreen_World.png" />
+                    </td>
+                </tr>
                 <tr>
                     <th scope="col">Materiales</th>
                     <td scope="col"><img src="/theme/img/pz-items/SheetMetal.png" alt="SheetMetal.png" /></td>
