@@ -6,17 +6,17 @@ Slug: patagonia-tools
 En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue creado hace mucho tiempo, y actualmente, lo estamos actualizando, debido a las nuevas exigencias del servidor. El mod, esta publicado en la workshop, y siempre nos basamos en la opinión de la comunidad, para realizar las modificaciones correspondientes en las recetas (aunque también tenemos criterio propio). La idea, es poder extender la partida lo máximo posible, proporcionando ciertos elementos, que no aparecen en los contenedores de manera habitual.
 
 <div class="row">
-    <div class="col-md-7">
+    <div class="col-md-9">
         <table class="table table-bordered table-sm text-center align-middle">
-            <thead class="table-success">
-                <tr>
+            <thead>
+                <tr class="thead-items">
                     <th colspan="5" class="text-center">Ventana</th>
                 </t>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="5">
-                        <img src="/theme/img/gif/windows.gif" alt="windows.gif">
+                    <td rowspan="5" class="td-img">
+                        <img src="/theme/img/tiles/Fixtures_windows_01_1.png" alt="Fixtures_windows_01_1.png">
                     </td>
                 </tr>
                 <tr>
@@ -47,16 +47,16 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
 </div>
 
 <div class="row">
-    <div class="col-md-7">
+    <div class="col-md-9">
         <table class="table table-bordered table-sm text-center align-middle">
-            <thead class="table-success">
-                <tr>
+            <thead>
+                <tr class="thead-items">
                     <th colspan="9" class="text-center">Lavarropa</th>
                 </t>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="9">
+                    <td rowspan="9" class="td-img">
                         <img src="/theme/img/tiles/Blue_Washing_Machine.png" alt="Blue_Washing_Machine.png" />
                     </td>
                 </tr>
@@ -94,16 +94,16 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
 </div>
 
 <div class="row">
-    <div class="col-md-7">
+    <div class="col-md-9">
         <table class="table table-bordered table-sm text-center align-middle">
-            <thead class="table-success">
-                <tr>
+            <thead>
+                <tr class="thead-items">
                     <th colspan="11" class="text-center">Televisor</th>
                 </t>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="11">
+                    <td rowspan="11" class="td-img">
                         <img src="/theme/img/tiles/120px-TvWideScreen_World.png" alt="120px-TvWideScreen_World.png" />
                     </td>
                 </tr>
@@ -145,14 +145,19 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
 </div>
 
 <div class="row">
-    <div class="col-md-7">
+    <div class="col-md-9">
         <table class="table table-bordered table-sm text-center align-middle">
-            <thead class="table-success">
-                <tr>
-                    <th colspan="9" class="text-center"><img src="/theme/img/tiles/Appliances_refrigeration_01_12.png" alt="Appliances_refrigeration_01_12.png" /> Heladera</th>
+            <thead>
+                <tr class="thead-items">
+                    <th colspan="10" class="text-center">Heladera</th>
                 </t>
             </thead>
             <tbody>
+                <tr>
+                    <td rowspan="10" class="td-img">
+                        <img class="img-fluid" src="/theme/img/tiles/Appliances_refrigeration_01_12.png" alt="Appliances_refrigeration_01_12.png" />
+                    </td>
+                </tr>
                 <tr>
                     <th scope="col">Materiales</th>
                     <td scope="col"><img src="/theme/img/pz-items/SheetMetal.png" alt="SheetMetal.png" /></td>
