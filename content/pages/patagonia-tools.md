@@ -16,7 +16,7 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
             <tbody>
                 <tr>
                     <td rowspan="5">
-                        <img src="/theme/img/tiles/windows.gif" alt="windows.gif">
+                        <img src="/theme/img/gif/windows.gif" alt="windows.gif">
                     </td>
                 </tr>
                 <tr>
