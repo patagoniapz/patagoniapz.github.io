@@ -46,7 +46,7 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
         <table class="table table-bordered table-sm text-center align-middle">
             <thead class="table-success">
                 <tr>
-                    <th colspan="7" class="text-center"><img src="/theme/img/tiles/Blue_Washing_Machine.png" alt="Blue_Washing_Machine.png" /> Lavarropa</th>
+                    <th colspan="8" class="text-center"><img src="/theme/img/tiles/Blue_Washing_Machine.png" alt="Blue_Washing_Machine.png" /> Lavarropa</th>
                 </t>
             </thead>
             <tbody>
@@ -58,6 +58,7 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
                     <td scope="col"><img src="/theme/img/pz-items/RadioReceiver.png" alt="RadioReceiver.png" /></td>
                     <td scope="col"><img src="/theme/img/pz-items/RadioTransmitter.png" alt="RadioTransmitter.png" /></td>
                     <td scope="col"><img src="/theme/img/pz-items/Aluminum.png" alt="Aluminum.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/EngineParts.png" alt="EngineParts.png" /></td>
                 </tr>
                 <tr>
                     <th>Cantidad</th>
@@ -67,14 +68,61 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
                     <td>2</td>
                     <td>2</td>
                     <td>6</td>
+                    <td>2</td>
                 </tr>
                 <tr>
                     <th>Herramientas</th>
-                    <td colspan="6"><img src="/theme/img/pz-items/Screwdriver.png" /></td>
+                    <td colspan="7"><img src="/theme/img/pz-items/Screwdriver.png" /></td>
                 </tr>
                 <tr>
                     <th>Profesión</th>
-                    <td colspan="6">Electronica 5</td>
+                    <td colspan="7">Electronica 5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-5">
+        <table class="table table-bordered table-sm text-center align-middle">
+            <thead class="table-success">
+                <tr>
+                    <th colspan="10" class="text-center"><img src="/theme/img/tiles/Blue_Washing_Machine.png" alt="Blue_Washing_Machine.png" /> Televisor</th>
+                </t>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="col">Materiales</th>
+                    <td scope="col"><img src="/theme/img/pz-items/SheetMetal.png" alt="SheetMetal.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/ElectronicsScrap.png" alt="ElectronicsScrap.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/Amplifier.png" alt="Amplifier.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/LightBulb.png" alt="LightBulb.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/ElectricWire.png" alt="ElectricWire.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/RadioReceiver.png" alt="RadioReceiver.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/RadioTransmitter.png" alt="RadioTransmitter.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/Aluminum.png" alt="Aluminum.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/EngineParts.png" alt="EngineParts.png" /></td>
+                </tr>
+                <tr>
+                    <th>Cantidad</th>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>6</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th>Herramientas</th>
+                    <td colspan="9"><img src="/theme/img/pz-items/Screwdriver.png" /></td>
+                </tr>
+                <tr>
+                    <th>Profesión</th>
+                    <td colspan="9">Electronica 5</td>
                 </tr>
             </tbody>
         </table>
