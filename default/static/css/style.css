@@ -20,6 +20,10 @@ footer {
   padding: 1% 0;
 }
 
+.item-count {
+  margin: 0 !important;
+}
+
 .footer_parrafo {
   margin: 0 !important;
   padding: 0 !important;

@@ -192,3 +192,112 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
         </table>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-md-9">
+        <table class="table table-bordered table-sm text-center align-middle">
+            <thead>
+                <tr class="thead-items">
+                    <th colspan="10" class="text-center">Piezas de motor</th>
+                </t>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="10" class="td-img">
+                        <img class="img-fluid" src="/theme/img/tiles/EngineParts.png" alt="EngineParts.png" /></br>
+                        <p class="item-count">Cantidad 1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col">Materiales</th>
+                    <td scope="col"><img src="/theme/img/pz-items/BlowTorch.png" alt="BlowTorch.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/ScrapMetal.png" alt="ScrapMetal.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/MetalTube.png" alt="MetalTube.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/MetalSheetSmall.png" alt="MetalSheetSmall.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/MetalBar.png" alt="MetalBar.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/Screws.png" alt="Screws.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/WeldingRods.png" alt="WeldingRods.png" /></td>
+                </tr>
+                <tr>
+                    <th>Cantidad</th>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th>Herramientas</th>
+                    <td colspan="2"><img src="/theme/img/pz-items/WeldingMask.png" /></td>
+                    <td><img src="/theme/img/gif/hammer.gif" /></td>
+                    <td><img src="/theme/img/pz-items/Screwdriver.png" /></td>
+                    <td><img src="/theme/img/pz-items/Hacksaw.png" /></td>
+                    <td><img src="/theme/img/pz-items/Wrench.png" /></td>
+                    <td><img src="/theme/img/pz-items/PipeWrench.png" /></td>
+                </tr>
+                <tr>
+                    <th>Profesión</th>
+                    <td colspan="7">Mecanica 1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-9">
+        <table class="table table-bordered table-sm text-center align-middle">
+            <thead>
+                <tr class="thead-items">
+                    <th colspan="10" class="text-center">Piezas de motor</th>
+                </t>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="10" class="td-img">
+                        <img class="img-fluid" src="/theme/img/tiles/EngineParts.png" alt="EngineParts.png" /></br>
+                        <p class="item-count">Cantidad 10</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col">Materiales</th>
+                    <td scope="col"><img src="/theme/img/pz-items/BlowTorch.png" alt="BlowTorch.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/ScrapMetal.png" alt="ScrapMetal.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/MetalTube.png" alt="MetalTube.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/MetalSheetSmall.png" alt="MetalSheetSmall.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/MetalBar.png" alt="MetalBar.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/Screws.png" alt="Screws.png" /></td>
+                    <td scope="col"><img src="/theme/img/pz-items/WeldingRods.png" alt="WeldingRods.png" /></td>
+                </tr>
+                <tr>
+                    <th>Cantidad</th>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th>Herramientas</th>
+                    <td colspan="2"><img src="/theme/img/pz-items/WeldingMask.png" /></td>
+                    <td><img src="/theme/img/gif/hammer.gif" /></td>
+                    <td><img src="/theme/img/pz-items/Screwdriver.png" /></td>
+                    <td><img src="/theme/img/pz-items/Hacksaw.png" /></td>
+                    <td><img src="/theme/img/pz-items/Wrench.png" /></td>
+                    <td><img src="/theme/img/pz-items/PipeWrench.png" /></td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Profesión</th>
+                    <td colspan="7">Mecanica 3</td>
+                </tr>
+                <tr>
+                    <td colspan="7">Metalisteria 1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
