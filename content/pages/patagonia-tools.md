@@ -10,15 +10,15 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
         <table class="table table-bordered table-sm text-center align-middle">
             <thead class="table-success">
                 <tr>
-                    <th colspan="4" class="text-center"><img src="{{ SITEURL }}/theme/img/tiles/windows.png" alt=""> Ventana</th>
+                    <th colspan="4" class="text-center"><img src="/theme/img/tiles/windows.png" alt=""> Ventana</th>
                 </t>
             </thead>
             <tbody>
                 <tr>
                     <th scope="col">Materiales</th>
-                    <td scope="col"><img src="{{ SITEURL }}/theme/img/pz-items/Plank.png" alt="Plank.png"></td>
-                    <td scope="col"><img src="{{ SITEURL }}/theme/img/pz-items/Screws.png" alt="Screws.png"></td>
-                    <td scope="col"><img src="{{ SITEURL }}/theme/img/pz-items/BrokenBottle.png" alt="BrokenBottle.png"></td>
+                    <td scope="col"><img src="/theme/img/pz-items/Plank.png" alt="Plank.png"></td>
+                    <td scope="col"><img src="/theme/img/pz-items/Screws.png" alt="Screws.png"></td>
+                    <td scope="col"><img src="/theme/img/pz-items/BrokenBottle.png" alt="BrokenBottle.png"></td>
                 </tr>
                 <tr>
                     <th>Cantidad</th>
@@ -28,9 +28,9 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
                 </tr>
                 <tr>
                     <th>Herramientas</th>
-                    <td><img src="{{ SITEURL }}/theme/img/gif/hammer.gif" /></td>
-                    <td><img src="{{ SITEURL }}/theme/img/pz-items/Screwdriver.png" /></td>
-                    <td><img src="{{ SITEURL }}/theme/img/pz-items/Hacksaw.png" /></td>
+                    <td><img src="/theme/img/gif/hammer.gif" /></td>
+                    <td><img src="/theme/img/pz-items/Screwdriver.png" /></td>
+                    <td><img src="/theme/img/pz-items/Hacksaw.png" /></td>
                 </tr>
                 <tr>
                     <th>Profesión</th>
