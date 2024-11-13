@@ -10,10 +10,15 @@ En este mod, se pueden encontrar muchas recetas, con elementos vanilla. Fue crea
         <table class="table table-bordered table-sm text-center align-middle">
             <thead class="table-success">
                 <tr>
-                    <th colspan="4" class="text-center"><img src="/theme/img/tiles/windows.png" alt=""> Ventana</th>
+                    <th colspan="4" class="text-center">Ventana</th>
                 </t>
             </thead>
             <tbody>
+                <tr>
+                    <td rowspan="4">
+                        <img src="/theme/img/tiles/Fixtures_windows_01_1.png" alt="Fixtures_windows_01_1.png">
+                    </td>
+                </tr>
                 <tr>
                     <th scope="col">Materiales</th>
                     <td scope="col"><img src="/theme/img/pz-items/Plank.png" alt="Plank.png"></td>
