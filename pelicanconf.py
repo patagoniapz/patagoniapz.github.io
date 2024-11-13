@@ -37,23 +37,3 @@ DEFAULT_PAGINATION = False
 THEME = 'default'
 
 DATE = datetime.datetime.now().year
-
-patagoniaItems = [
-    {
-        'itemImage': '/theme/img/tiles/windows.png',
-        'itemName': 'Ventana',
-        'itemMaterials': [
-            {'materialName': 'Plank', 'materialmg': '/theme/img/pz-items/Plank.png', 'materialCount': 4},
-            {'materialName': 'Screws', 'materialmg': '/theme/img/pz-items/Screws.png', 'materialCount': 4},
-            {'materialName': 'BrokenBottle', 'materialmg': '/theme/img/pz-items/BrokenBottle.png', 'materialCount': 4}
-        ],
-        'itemTools': [
-            {'toolImg': '/theme/img/gif/hammer.gif', 'toolCount': 1},
-            {'toolImg': '/theme/img/pz-items/Screwdriver.png', 'toolCount': 1},
-            {'toolImg': '/theme/img/pz-items/Hacksaw.png', 'toolCount': 1}
-        ],
-        'itemProfessions': [
-            {'professionName': 'Carpinteria', 'professionLevel': 1}
-        ]
-    }
-]
