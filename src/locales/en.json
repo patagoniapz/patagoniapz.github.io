@@ -26,5 +26,34 @@
     },
     "skills": {
         "Woodwork": "Woodwork"
+    },
+    "MENU": {
+        "HOME": "Home",
+        "HOW_TO_CONNECT": "How to connect?",
+        "RULES": "Rules",
+        "CHANGE_LOG": "Change log",
+        "DONATIONS": "Donations",
+        "RECIPES": "Recipes",
+        "LANGUAGES": {
+            "EN": "English",
+            "ES": "Spanish",
+            "ENGLISH": "English",
+            "SPANISH": "Spanish"
+        }
+    },
+    "TITLE": {},
+    "DATA_TO_ACCESS_THE_SERVER": "Data to access the server",
+    "PORT": "Port",
+    "COUNTRY": "Country",
+    "SERVER_TYPE": "Server type:",
+    "SERVER_TYPE_DETAIL": "PVE / Cooperative",
+    "EXPERIENCE": "Experience",
+    "WIPE": "No wipes (inside the plots)",
+    "START": "September 15, 2024",
+    "CONNECT": {
+        "LINE_ONE": "Mods are downloaded the first time you enter the server.",
+        "LINE_TWO": "Where it says username, it's yours, whichever you want.",
+        "LINE_THREE": "Same as the password.",
+        "LINE_FOUR": "Where it says server password, leave it blank."
     }
 }

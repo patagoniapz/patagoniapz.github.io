@@ -26,5 +26,34 @@
     },
     "skills": {
         "Woodwork": "Carpintería"
+    },
+    "MENU": {
+        "HOME": "Inicio",
+        "HOW_TO_CONNECT": "¿Cómo conectarse?",
+        "RULES": "Reglas",
+        "CHANGE_LOG": "Cambios",
+        "DONATIONS": "Donaciones",
+        "RECIPES": "Recetas",
+        "LANGUAGES": {
+            "EN": "Ingles",
+            "ES": "Español",
+            "ENGLISH": "Ingles",
+            "SPANISH": "Español"
+        }
+    },
+    "TITLE": {},
+    "DATA_TO_ACCESS_THE_SERVER": "Datos para acceder al servidor",
+    "PORT": "Puerto",
+    "COUNTRY": "Pais",
+    "SERVER_TYPE": "Tipo de servidor",
+    "SERVER_TYPE_DETAIL": "PVE / Cooperativo",
+    "EXPERIENCE": "Experiencia",
+    "WIPE": "Sin wipes (dentro de las parcelas)",
+    "START": "15 de septiembre del 2024",
+    "CONNECT": {
+        "LINE_ONE": "Los mods se descargan la primera vez que ingresas al servidor.",
+        "LINE_TWO": "Donde dice usuario, es el de ustedes, el que quieran.",
+        "LINE_THREE": "Lo mismo que la contraseña.",
+        "LINE_FOUR": "Donde dice contraseña del servidor, lo dejan en blanco."
     }
 }

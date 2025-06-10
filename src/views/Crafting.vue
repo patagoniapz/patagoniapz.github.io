@@ -1,27 +1,5 @@
 <template>
   <div class="container my-4"> <h1 class="text-center mb-4">{{ $t('appTitle') }}</h1>
-
-    <div class="mb-4 d-flex justify-content-center">
-      <div class="btn-group" role="group" aria-label="Language selector">
-        <button
-          type="button"
-          class="btn"
-          :class="{ 'btn-primary': $i18n.locale === 'en', 'btn-outline-primary': $i18n.locale !== 'en' }"
-          @click="changeLocale('en')"
-        >
-          English
-        </button>
-        <button
-          type="button"
-          class="btn"
-          :class="{ 'btn-primary': $i18n.locale === 'es', 'btn-outline-primary': $i18n.locale !== 'es' }"
-          @click="changeLocale('es')"
-        >
-          Español
-        </button>
-      </div>
-    </div>
-
     <div v-if="loading" class="text-center my-5">
       <div class="spinner-border text-primary" role="status">
         <span class="visually-hidden">{{ $t('loadingRecipes') }}</span>
@@ -92,18 +70,8 @@ export default {
       error: null
     };
   },
-  methods: {
-    changeLocale(locale) {
-      this.$i18n.locale = locale;
-      localStorage.setItem('user-locale', locale);
-    }
-  },
-  async mounted() {
-    const savedLocale = localStorage.getItem('user-locale');
-    if (savedLocale) {
-      this.$i18n.locale = savedLocale;
-    }
 
+  async mounted() {
     try {
       const response = await fetch(`./recipes.json`);
       if (!response.ok) {
