@@ -16,17 +16,11 @@
     "no": "No",
     "keep": "Keep",
     "Hammering": "Hammering",
-
-    "items": {
-        "Paintbrush": "Paint brush",
-        "PaintWhite": "White Paint",
-        "PaintYellow": "Yellow Paint",
-        "YellowBox": "Yellow Box",
-        "WhiteBox": "White Box",
-        "carpentry_01_16": "Wooden Crate"
-    },
-
-    "skills": {
-        "Woodwork": "Woodwork"
-    }
+    "Paintbrush": "Paint brush",
+    "PaintWhite": "White Paint",
+    "PaintYellow": "Yellow Paint",
+    "YellowBox": "Yellow Box",
+    "WhiteBox": "White Box",
+    "carpentry_01_16": "Wooden Crate",
+    "Woodwork": "Woodwork"
 }

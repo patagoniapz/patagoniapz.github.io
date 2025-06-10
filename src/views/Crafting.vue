@@ -46,7 +46,7 @@
               >
             </div>
             <div class="col-md-8"> <div class="card-body">
-                <h5 class="card-title text-primary">{{ $t(`items.${recipe.name}`) }}</h5>
+                <h5 class="card-title text-primary">{{ $t(recipe.name) }}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">{{ $t('category') }}: {{ recipe.category }}</h6>
                 <p class="card-text mb-1">
                   <strong>{{ $t('time') }}: </strong> {{ recipe.time }} {{ $t('seconds') }} | <strong>{{ $t('sound') }}: </strong> {{ $t(recipe.sound) }} | <strong>{{ $t('canBeDoneFromFloor') }}: </strong> <span> {{ recipe.canBeDoneFromFloor ? $t('yes') : $t('no') }} </span></p>
@@ -57,7 +57,7 @@
                   <strong>{{ $t('ingredients') }}:</strong>
                   <ul>
                     <li v-for="(quantity, ingredient) in recipe.ingredients" :key="ingredient">
-                      {{ $t(`items.${ingredient}`) }}:
+                      {{ $t(ingredient) }}:
                       <span class="fw-bold">
                         {{ quantity === 'keep' ? $t('keep') : quantity }}
                       </span>
@@ -69,7 +69,7 @@
                   <strong>{{ $t('skillsRequired') }}:</strong>
                   <ul>
                     <li v-for="(level, skill) in recipe.skillRequired" :key="skill">
-                      {{ $t(`skills.${skill}`) }}: <span>{{ level }}</span>
+                      {{ $t(skill) }}: <span>{{ level }}</span>
                     </li>
                   </ul>
                 </div>
