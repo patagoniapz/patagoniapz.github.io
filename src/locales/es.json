@@ -1,0 +1,32 @@
+{
+    "appTitle": "Recetas de Project Zomboid",
+    "loadingRecipes": "Cargando recetas...",
+    "errorLoadingRecipes": "Error al cargar recetas:",
+    "noRecipesAvailable": "No hay recetas disponibles.",
+    "recipeName": "Nombre de la Receta",
+    "ingredients": "Ingredientes",
+    "result": "Resultado",
+    "time": "Tiempo",
+    "seconds": "segundos",
+    "sound": "Sonido",
+    "category": "Categoría",
+    "skillsRequired": "Habilidades Requeridas",
+    "canBeDoneFromFloor": "Se puede hacer desde el suelo",
+    "yes": "Sí",
+    "no": "No",
+    "keep": "Requiere",
+    "Hammering": "Martilleo",
+
+    "items": {
+        "Paintbrush": "Brocha",
+        "PaintWhite": "Pintura Blanca",
+        "PaintYellow": "Pintura Amarilla",
+        "YellowBox": "Caja de manera amarilla",
+        "WhiteBox": "Caja de manera blanca",
+        "carpentry_01_16": "Caja de madera"
+    },
+
+    "skills": {
+        "Woodwork": "Carpintería"
+    }
+}

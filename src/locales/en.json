@@ -1,0 +1,32 @@
+{
+    "appTitle": "Project Zomboid Recipes",
+    "loadingRecipes": "Loading recipes...",
+    "errorLoadingRecipes": "Error loading recipes:",
+    "noRecipesAvailable": "No recipes available.",
+    "recipeName": "Recipe Name",
+    "ingredients": "Ingredients",
+    "result": "Result",
+    "time": "Time",
+    "seconds": "seconds",
+    "sound": "Sound",
+    "category": "Category",
+    "skillsRequired": "Skills Required",
+    "canBeDoneFromFloor": "Can be done from floor",
+    "yes": "Yes",
+    "no": "No",
+    "keep": "Keep",
+    "Hammering": "Hammering",
+
+    "items": {
+        "Paintbrush": "Paint brush",
+        "PaintWhite": "White Paint",
+        "PaintYellow": "Yellow Paint",
+        "YellowBox": "Yellow Box",
+        "WhiteBox": "White Box",
+        "carpentry_01_16": "Wooden Crate"
+    },
+
+    "skills": {
+        "Woodwork": "Woodwork"
+    }
+}
