@@ -16,11 +16,15 @@
     "no": "No",
     "keep": "Requiere",
     "Hammering": "Martilleo",
-    "Paintbrush": "Brocha",
-    "PaintWhite": "Pintura Blanca",
-    "PaintYellow": "Pintura Amarilla",
-    "YellowBox": "Caja de manera amarilla",
-    "WhiteBox": "Caja de manera blanca",
-    "carpentry_01_16": "Caja de madera",
-    "Woodwork": "Carpintería"
+    "items": {
+        "Paintbrush": "Brocha",
+        "PaintWhite": "Pintura Blanca",
+        "PaintYellow": "Pintura Amarilla",
+        "YellowBox": "Caja de manera amarilla",
+        "WhiteBox": "Caja de manera blanca",
+        "carpentry_01_16": "Caja de madera"
+    },
+    "skills": {
+        "Woodwork": "Carpintería"
+    }
 }
