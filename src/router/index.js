@@ -4,7 +4,6 @@ import Connect from '../views/Connect.vue';
 import Rules from '../views/Rules.vue';
 import Donation from '../views/Donation.vue'
 import Changelog from '../views/Changelog.vue';
-import Crafting from '../views/Crafting.vue';
 
 const routes = [
     { path: '/', name: 'Home', component: Home },
@@ -12,7 +11,6 @@ const routes = [
     { path: '/reglas', name: 'Reglas', component: Rules },
     { path: '/donaciones', name: 'Donaciones', component: Donation },
     { path: '/cambios', name: 'Cambios', component: Changelog },
-    { path: '/crafteos', name: 'Crafteos', component: Crafting },
 ];
 
 const router = createRouter({
