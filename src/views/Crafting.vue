@@ -1,18 +1,18 @@
 <template>
-  <div class="container my-4"> <h1 class="text-center mb-4">{{ $t('appTitle') }}</h1>
+  <div class="container my-4"> <h1 class="text-center mb-4">Recetas de Project Zomboid</h1>
     <div v-if="loading" class="text-center my-5">
       <div class="spinner-border text-primary" role="status">
-        <span class="visually-hidden">{{ $t('loadingRecipes') }}</span>
+        <span class="visually-hidden">Cargando recetas...</span>
       </div>
-      <p class="mt-2">{{ $t('loadingRecipes') }}</p>
+      <p class="mt-2">Cargando recetas...</p>
     </div>
 
     <div v-else-if="error" class="alert alert-danger" role="alert">
-      {{ $t('errorLoadingRecipes') }} {{ error }}
+      Error al cargar recetas: {{ error }}
     </div>
 
     <div v-else-if="recipes.length === 0" class="alert alert-info text-center" role="alert">
-      {{ $t('noRecipesAvailable') }}
+      No hay recetas disponibles.
     </div>
 
     <div v-else class="row row-cols-1 row-cols-md-2 g-4"> <div class="col" v-for="recipe in recipes" :key="recipe.name">
@@ -24,30 +24,30 @@
               >
             </div>
             <div class="col-md-8"> <div class="card-body">
-                <h5 class="card-title text-primary">{{ $t(`items.${recipe.name}`) }}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">{{ $t('category') }}: {{ recipe.category }}</h6>
+                <h5 class="card-title text-primary">{{ itemName(recipe.name) }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Categoría: {{ recipe.category }}</h6>
                 <p class="card-text mb-1">
-                  <strong>{{ $t('time') }}: </strong> {{ recipe.time }} {{ $t('seconds') }} | <strong>{{ $t('sound') }}: </strong> {{ $t(recipe.sound) }} | <strong>{{ $t('canBeDoneFromFloor') }}: </strong> <span> {{ recipe.canBeDoneFromFloor ? $t('yes') : $t('no') }} </span></p>
+                  <strong>Tiempo: </strong> {{ recipe.time }} segundos | <strong>Sonido: </strong> {{ soundName(recipe.sound) }} | <strong>Se puede hacer desde el suelo: </strong> <span> {{ recipe.canBeDoneFromFloor ? 'Sí' : 'No' }} </span></p>
                 <p class="card-text mb-1">
                 </p>
 
                 <div class="mt-3">
-                  <strong>{{ $t('ingredients') }}:</strong>
+                  <strong>Ingredientes:</strong>
                   <ul>
                     <li v-for="(quantity, ingredient) in recipe.ingredients" :key="ingredient">
-                      {{ $t(`items.${ingredient}`) }}:
+                      {{ itemName(ingredient) }}:
                       <span class="fw-bold">
-                        {{ quantity === 'keep' ? $t('keep') : quantity }}
+                        {{ quantity === 'keep' ? 'Requiere' : quantity }}
                       </span>
                     </li>
                   </ul>
                 </div>
 
                 <div v-if="Object.keys(recipe.skillRequired).length > 0" class="mt-3">
-                  <strong>{{ $t('skillsRequired') }}:</strong>
+                  <strong>Habilidades Requeridas:</strong>
                   <ul>
                     <li v-for="(level, skill) in recipe.skillRequired" :key="skill">
-                      {{ $t(`skills.${skill}`) }}: <span>{{ level }}</span>
+                      {{ skillName(skill) }}: <span>{{ level }}</span>
                     </li>
                   </ul>
                 </div>
@@ -61,6 +61,25 @@
 </template>
 
 <script>
+// Nombres en espanol de los items/habilidades/sonidos que aparecen en recipes.json.
+// Si un item no esta en el mapa, se muestra tal cual viene del JSON (fallback).
+const ITEM_NAMES = {
+  Paintbrush: 'Brocha',
+  PaintWhite: 'Pintura Blanca',
+  PaintYellow: 'Pintura Amarilla',
+  YellowBox: 'Caja de manera amarilla',
+  WhiteBox: 'Caja de manera blanca',
+  carpentry_01_16: 'Caja de madera',
+};
+
+const SKILL_NAMES = {
+  Woodwork: 'Carpintería',
+};
+
+const SOUND_NAMES = {
+  Hammering: 'Martilleo',
+};
+
 export default {
   name: 'RecipeList',
   data() {
@@ -69,6 +88,18 @@ export default {
       loading: true,
       error: null
     };
+  },
+
+  methods: {
+    itemName(key) {
+      return ITEM_NAMES[key] ?? key;
+    },
+    skillName(key) {
+      return SKILL_NAMES[key] ?? key;
+    },
+    soundName(key) {
+      return SOUND_NAMES[key] ?? key;
+    },
   },
 
   async mounted() {

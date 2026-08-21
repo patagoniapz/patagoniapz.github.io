@@ -10,36 +10,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <router-link to="/como-ingresar" class="nav-link active">{{ $t('MENU.HOW_TO_CONNECT') }}</router-link>
+                        <router-link to="/como-ingresar" class="nav-link active">¿Cómo conectarse?</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="/reglas" class="nav-link">{{ $t('MENU.RULES') }}</router-link>
+                        <router-link to="/reglas" class="nav-link">Reglas</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="/cambios" class="nav-link">{{ $t('MENU.CHANGE_LOG') }}</router-link>
+                        <router-link to="/cambios" class="nav-link">Cambios</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="/donaciones" class="nav-link">{{ $t('MENU.DONATIONS') }}</router-link>
+                        <router-link to="/donaciones" class="nav-link">Donaciones</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="/crafteos" class="nav-link">{{ $t('MENU.RECIPES') }}</router-link>
+                        <router-link to="/crafteos" class="nav-link">Recetas</router-link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"  aria-current="page" href="https://discord.patagoniapz.com.ar/"
                             target="_blank">Discord</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLanguage" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ $t(`MENU.LANGUAGES.${locale.toUpperCase()}`) }}</a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownLanguage">
-                            <li>
-                                <a class="dropdown-item" :class="{ 'active': locale === 'en' }" @click="changeLocale('en')">{{ $t('MENU.LANGUAGES.ENGLISH') }}</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" :class="{ 'active': locale === 'es' }" @click="changeLocale('es')">{{ $t('MENU.LANGUAGES.SPANISH') }}</a>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
             </div>
@@ -47,22 +34,3 @@
     </nav>
     <router-view />
 </template>
-<script setup>
-    import { onMounted } from "vue"
-    import { useI18n } from "vue-i18n"
-
-    const { locale } = useI18n()
-
-    const changeLocale = (newLocale) => {
-        locale.value = newLocale
-        localStorage.setItem("user-locale", newLocale)
-    };
-
-    onMounted(() => {
-        const savedLocale = localStorage.getItem("user-locale")
-        if (savedLocale) {
-            locale.value = savedLocale
-        }
-    });
-
-</script>

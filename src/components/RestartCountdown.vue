@@ -1,23 +1,18 @@
 <template>
-    <div class="restart-countdown">
-        <p class="mb-1">
-            <strong>{{ $t('RESTART.TITLE') }}:</strong>
+    <div class="restart-banner text-center py-2 px-3">
+        <div>
+            <strong>Próximo reinicio del servidor:</strong>
             {{ countdownLabel }}
-        </p>
-        <p class="mb-1 text-muted small">
-            {{ localTimeLabel }}
-        </p>
-        <p class="mb-0 text-muted small">
-            {{ $t('RESTART.SCHEDULE_NOTE') }}
-        </p>
+            <span class="text-muted">— {{ localTimeLabel }}</span>
+        </div>
+        <div class="small text-muted">
+            Reinicios diarios a las 06:00 y 18:00 (hora Argentina), para liberar la memoria acumulada del servidor.
+        </div>
     </div>
 </template>
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
-import { useI18n } from 'vue-i18n'
-
-const { t, locale } = useI18n()
 
 // El servidor reinicia todos los dias a las 06:00 y a las 18:00, hora Argentina.
 // Argentina no tiene horario de verano desde 2009, asi que el offset UTC-3 es fijo
@@ -73,9 +68,23 @@ const countdownLabel = computed(() => {
 })
 
 const localTimeLabel = computed(() => {
-    const time = target.value.toLocaleTimeString(locale.value, { hour: '2-digit', minute: '2-digit' })
+    // Sin locale explicito: se usa el idioma/formato por defecto del navegador de quien visita.
+    const time = target.value.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     const isSameDay = target.value.toDateString() === now.value.toDateString()
-    const dayLabel = isSameDay ? t('RESTART.TODAY') : t('RESTART.TOMORROW')
-    return t('RESTART.LOCAL_TIME', { day: dayLabel, time })
+    const dayLabel = isSameDay ? 'hoy' : 'mañana'
+    return `${dayLabel} a las ${time} (tu horario)`
 })
 </script>
+
+<style scoped>
+.restart-banner {
+    background-color: #212529;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Bootstrap's .text-muted is tuned for light backgrounds; override for this dark bar. */
+.restart-banner .text-muted {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+</style>
