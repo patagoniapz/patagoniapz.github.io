@@ -12,6 +12,7 @@
                 </div>
                 <div class="col-sm-12 col-md-5 mt-5">
                     <iframe src="https://api.trackyserver.com/widget/tracky.php?id=2209052&lang_code=es&map=0&version=1&votes=1&plist=0&connect=1&button_name=Conexión&color1=FF8415&color2=333333&color3=333333&color4=FFFFFF&color5=FFFFFF&color7=8A8E94&color8=8a8e94&color9=fff&title=Patagonia PZ" width="auto" height="200" allowtransparency="true" frameborder="0"></iframe>
+                    <RestartCountdown class="mt-3" />
                 </div>
             </div>
             <div class="row">
@@ -22,6 +23,9 @@
         </div>
     </div>
 </template>
+<script setup>
+import RestartCountdown from '../components/RestartCountdown.vue'
+</script>
 <style scoped>
 iframe {
     margin-bottom: 0.5em;

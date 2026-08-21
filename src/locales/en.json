@@ -51,6 +51,13 @@
     "VERSION": "Version",
     "WIPE": "No wipes (inside the plots)",
     "START": "August 1, 2026",
+    "RESTART": {
+        "TITLE": "Next server restart",
+        "SCHEDULE_NOTE": "The server restarts every day at 06:00 and 18:00 (Argentina time), to free up accumulated memory.",
+        "TODAY": "today",
+        "TOMORROW": "tomorrow",
+        "LOCAL_TIME": "{day} at {time} (your time)"
+    },
     "CONNECT": {
         "LINE_ONE": "Mods are downloaded the first time you enter the server.",
         "LINE_TWO": "Where it says username, it's yours, whichever you want.",
