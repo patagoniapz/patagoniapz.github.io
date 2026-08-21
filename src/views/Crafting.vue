@@ -15,7 +15,7 @@
       {{ $t('noRecipesAvailable') }}
     </div>
 
-    <div v-else class="row row-cols-1 g-4"> <div class="col" v-for="recipe in recipes" :key="recipe.name">
+    <div v-else class="row row-cols-1 row-cols-md-2 g-4"> <div class="col" v-for="recipe in recipes" :key="recipe.name">
         <div class="card h-100 shadow-sm recipe-card-horizontal"> <div class="row g-0"> <div class="col-md-4 d-flex align-items-center justify-content-center bg-light p-3 border-end"> <img
                 v-if="recipe.image"
                 :src="recipe.image"

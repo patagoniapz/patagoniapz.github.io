@@ -11,7 +11,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col my-3">
+                <div class="col-md-6 my-3">
+                    <h4>No está permitido</h4>
                     <ul>
                         <li>Esta totalmente prohibido, hostigar, molestar, agredir a otras personas dentro y fuera del servidor.</li>
                         <li><strong>NO</strong> meterse en el safe house de otra persona, sin su autorización.</li>
@@ -24,9 +25,8 @@
                         <li><strong>NO</strong> utilices cosas de otras personas, sin su permiso / consentimiento.</li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
+                <div class="col-md-6 my-3">
+                    <h4>Sí está permitido</h4>
                     <ul>
                         <li>Pueden formar facciones, aunque realmente no tienen demasiado sentido dado que no tiene beneficios.</li>
                         <li>Pueden crear y hacer roles individuales, a pesar de que el servidor no es de rol.</li>
