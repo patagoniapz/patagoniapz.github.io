@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Patagonia PZ: comunidad de Project Zomboid</title>
+        <script type="text/javascript">
+            // GitHub Pages es hosting estatico puro: no hay forma de reescribir en el
+            // servidor una URL como /reglas hacia index.html, asi que cualquier ruta
+            // que no sea un archivo real (todas las rutas de la SPA, salvo "/") cae aca.
+            //
+            // Truco estandar para SPAs en GitHub Pages (spa-github-pages, MIT,
+            // https://github.com/rafgraph/spa-github-pages): se codifica la ruta pedida
+            // como query string y se redirige a "/", donde el script en index.html la
+            // decodifica y la restaura con history.replaceState antes de que Vue Router
+            // tome control, sin que se note un segundo salto para quien navega.
+            var pathSegmentsToKeep = 0;
+            var l = window.location;
+            l.replace(
+                l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+                l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+                (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+                l.hash
+            );
+        </script>
+    </head>
+    <body></body>
+</html>
