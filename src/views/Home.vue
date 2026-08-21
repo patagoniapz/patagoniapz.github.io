@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="/216898430-bca93add-fe71-4745-89af-c0251db17a2d.jpg" alt="home">
+        <img src="/216898430-bca93add-fe71-4745-89af-c0251db17a2d.jpg" alt="home" class="img-fluid w-100">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6 mt-5">

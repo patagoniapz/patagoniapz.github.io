@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="/e8803786-bd55-4a67-8f3b-f8e2a1d10370.jpg" alt="connect">
+        <img src="/e8803786-bd55-4a67-8f3b-f8e2a1d10370.jpg" alt="connect" class="img-fluid w-100">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-3 estrecho">
