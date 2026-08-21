@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="/wp12089409-desktop-zombie-art-wallpapers.jpg" alt="rules">
+        <img src="/wp12089409-desktop-zombie-art-wallpapers.jpg" alt="rules" class="img-fluid w-100">
         <div class="container">
             <div class="row">
                 <div class="col mt-3 estrecho">
