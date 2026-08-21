@@ -45,15 +45,17 @@
     "DATA_TO_ACCESS_THE_SERVER": "Data to access the server",
     "PORT": "Port",
     "COUNTRY": "Country",
-    "SERVER_TYPE": "Server type:",
+    "SERVER_TYPE": "Server type",
     "SERVER_TYPE_DETAIL": "PVE / Cooperative",
     "EXPERIENCE": "Experience",
+    "VERSION": "Version",
     "WIPE": "No wipes (inside the plots)",
-    "START": "September 15, 2024",
+    "START": "August 1, 2026",
     "CONNECT": {
         "LINE_ONE": "Mods are downloaded the first time you enter the server.",
         "LINE_TWO": "Where it says username, it's yours, whichever you want.",
         "LINE_THREE": "Same as the password.",
-        "LINE_FOUR": "Where it says server password, leave it blank."
+        "LINE_FOUR": "Where it says server password, leave it blank.",
+        "MODS_PHILOSOPHY": "We use very few mods, because we want to keep the experience as close to vanilla as possible. The mods we create ourselves are modifications that expand the vanilla playthrough, trying to improve things that may have been better in build 41, or expanding the new features of build 42. They offer tools for both players and server admins."
     }
 }

@@ -48,12 +48,14 @@
     "SERVER_TYPE": "Tipo de servidor",
     "SERVER_TYPE_DETAIL": "PVE / Cooperativo",
     "EXPERIENCE": "Experiencia",
+    "VERSION": "Versión",
     "WIPE": "Sin wipes (dentro de las parcelas)",
-    "START": "15 de septiembre del 2024",
+    "START": "1 de agosto del 2026",
     "CONNECT": {
         "LINE_ONE": "Los mods se descargan la primera vez que ingresas al servidor.",
         "LINE_TWO": "Donde dice usuario, es el de ustedes, el que quieran.",
         "LINE_THREE": "Lo mismo que la contraseña.",
-        "LINE_FOUR": "Donde dice contraseña del servidor, lo dejan en blanco."
+        "LINE_FOUR": "Donde dice contraseña del servidor, lo dejan en blanco.",
+        "MODS_PHILOSOPHY": "Utilizamos muy pocos mods, porque buscamos mantener una experiencia lo más vanilla posible. Los mods propios que creamos son modificaciones para expandir la partida vanilla, tratando de mejorar aquellas cosas que quizás estaban mejor en la build 41, o expandiendo las nuevas funcionalidades de la build 42. Ofrecen herramientas tanto para los jugadores, como para quienes administran el servidor."
     }
 }

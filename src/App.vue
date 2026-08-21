@@ -25,7 +25,7 @@
                         <router-link to="/crafteos" class="nav-link">{{ $t('MENU.RECIPES') }}</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  aria-current="page" href="https://discord.gg/yGTbwUkVtV"
+                        <a class="nav-link"  aria-current="page" href="https://discord.patagoniapz.com.ar/"
                             target="_blank">Discord</a>
                     </li>
                 </ul>
