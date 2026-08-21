@@ -22,9 +22,6 @@
                         <router-link to="/donaciones" class="nav-link">Donaciones</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="/crafteos" class="nav-link">Recetas</router-link>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link"  aria-current="page" href="https://discord.patagoniapz.com.ar/"
                             target="_blank">Discord</a>
                     </li>
