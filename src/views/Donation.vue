@@ -5,16 +5,17 @@
                 <div class="col">
                     <h1>Donaciones</h1>
                     <p>Para los que puedan colaborar con el servidor...</p>
-                    <p>Respecto a las donaciones, quiero ser muy claro en este aspecto. <strong>Todo el dinero que ingresa al servidor, de momento, es destinado al pago de la máquina. La premisa de la comunidad, es que la maquina se pueda pagar sola todos los meses. El servidor, no ofrece ningún tipo de beneficio adicional, a las personas que deciden donarle dinero. En otras palabras, no es un servidor pay to win (pagar para ganar).</strong> Todas las cosas que las personas fueron obteniendo hasta ahora, fueron producto de su propio esfuerzo o bien, porque se liberó algún refugio de algún jugador que ya no juega en el servidor y que acumulo botín dentro del mismo.</p>
-                    <p>Agradecemos a todas las personas que hasta ahora, confiaron en esta comunidad y que siguen confiando en ella, porque sin ellos, esto sería difícil de llevar adelante. No solamente donando dinero, sino también, contestando dudas y participando en el discord de la comunidad, así como también, ayudando a las personas nuevas que piden ayuda dentro del servidor. <strong>Como sabrán el servidor es PVE, por lo que no hay razón para llevarse mal. Tampoco pido que sean amigos, pero con que haya un mínimo de respeto, es más que suficiente, para tener una partida tranquila.</strong></p>
-                    <p>Costo del servidor por mes: <strong>$67000 (Pesos Argentinos)</strong></p>
+                    <p><strong>El único objetivo de las donaciones es cubrir el costo mensual de la máquina, nada más.</strong> No hay ningún interés en recaudar dinero para el servidor en general, solo en pagar el hosting y disfrutar del servidor y de la comunidad que se formó alrededor de él. No ofrecemos ningún beneficio adicional a quienes donan: no es un servidor pay to win (pagar para ganar). Todo lo que la gente fue consiguiendo hasta ahora, fue producto de su propio esfuerzo, o porque se liberó el refugio de algún jugador que ya no juega y que había acumulado botín.</p>
+                    <p>Agradecemos a todos los que confiaron y siguen confiando en esta comunidad, porque sin ellos sería difícil sostenerla — no solo donando, sino también ayudando en el discord a quienes tienen dudas o son nuevos. <strong>El servidor es PVE, así que no hay razón para llevarse mal. Alcanza con un mínimo de respeto para tener una partida tranquila.</strong></p>
+                    <p>Costo del servidor por mes: <strong>$154.000 (Pesos Argentinos)</strong></p>
                     <p><strong>NO</strong> es obligatorio donar, para poder jugar.</p>
+                    <p>En un principio, quien donaba no recibía nada a cambio. Estamos abiertos a escuchar a la comunidad: si querés recibir algo por tu donación, escribinos por privado, compartiendo el comprobante y aclarando qué te gustaría obtener. Siempre queda a consideración del servidor, porque no todo lo que se pida se va a poder cumplir, ni va a tener necesariamente el mismo valor.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col estrecho">
                     <p>Mercado Pago (Argentina): CVU: <strong>0000003100026110914949</strong></p>
-                    <p><a href="https://www.paypal.com/paypalme/patagoniawow" target="_blank">Paypal (Para otros paises)</a></p>
+                    <p><a href="https://www.paypal.com/paypalme/patagoniawow" target="_blank">Paypal (Para otros países)</a></p>
                 </div>
             </div>
         </div>
