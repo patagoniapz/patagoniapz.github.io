@@ -51,6 +51,13 @@
     "VERSION": "Versión",
     "WIPE": "Sin wipes (dentro de las parcelas)",
     "START": "1 de agosto del 2026",
+    "RESTART": {
+        "TITLE": "Próximo reinicio del servidor",
+        "SCHEDULE_NOTE": "El servidor reinicia todos los días a las 06:00 y a las 18:00 (hora Argentina), para liberar la memoria acumulada.",
+        "TODAY": "hoy",
+        "TOMORROW": "mañana",
+        "LOCAL_TIME": "{day} a las {time} (tu horario)"
+    },
     "CONNECT": {
         "LINE_ONE": "Los mods se descargan la primera vez que ingresas al servidor.",
         "LINE_TWO": "Donde dice usuario, es el de ustedes, el que quieran.",
